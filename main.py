@@ -6,7 +6,7 @@
 # min/max practice
 # Random in python
 # List comprehension
-
+David Serrano
 
 # review practice
 # Append the value of current to the end of the list seconds Please use the list.append() method to do that.
