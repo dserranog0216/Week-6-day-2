@@ -6,7 +6,7 @@
 # min/max practice
 # Random in python
 # List comprehension
-David Serrano
+#David Serrano
 
 # review practice
 # Append the value of current to the end of the list seconds Please use the list.append() method to do that.
@@ -109,7 +109,46 @@ seconds = [1.23, 1.45, 1.02, 1.11]
 
 ########################################decision making in python#####################################
 
+if 5 == 2:
+  print("it is correct")
+else:
+  print("it is not correct")
 
+pet = "dog"
+if pet == "cat":
+  print("you have a cat")
+elif pet == "dog":
+  print("you have a dog")
+else:
+  print("I don't know what animal you have!")
+
+age = 16
+schoolGrade = 9
+if age < 18:
+  print("You are a minor")
+  if schoolGrade >=7:
+    print("passed") #nested if conditionals
+  else:
+    print("failed")
+else:
+  print("You are an adult")
+
+input("Enter your name: ")
+input("Enter your relatives name: ")
+age = int(input("Enter your age: "))
+
+
+if age < 20:
+  print(" I am young")
+elif age < 30:
+  print("I am a vincernarian")
+elif age < 40:
+  print("I am a tricenarian")
+elif age < 50:
+  print(" I am quadragenarian")
+else:
+  print("I am old")
+  
 
 # Decision Making Practice #1
 # Using the variables num1 and num2, which are fed with user input (just like in the provided code), create a flow control structure that compares the values of the variables, and returns a result according to the case:
