@@ -109,45 +109,45 @@ seconds = [1.23, 1.45, 1.02, 1.11]
 
 ########################################decision making in python#####################################
 
-if 5 == 2:
-  print("it is correct")
-else:
-  print("it is not correct")
+# if 5 == 2:
+#   print("it is correct")
+# else:
+#   print("it is not correct")
 
-pet = "dog"
-if pet == "cat":
-  print("you have a cat")
-elif pet == "dog":
-  print("you have a dog")
-else:
-  print("I don't know what animal you have!")
+# pet = "dog"
+# if pet == "cat":
+#   print("you have a cat")
+# elif pet == "dog":
+#   print("you have a dog")
+# else:
+#   print("I don't know what animal you have!")
 
-age = 16
-schoolGrade = 9
-if age < 18:
-  print("You are a minor")
-  if schoolGrade >=7:
-    print("passed") #nested if conditionals
-  else:
-    print("failed")
-else:
-  print("You are an adult")
+# age = 16
+# schoolGrade = 9
+# if age < 18:
+#   print("You are a minor")
+#   if schoolGrade >=7:
+#     print("passed") #nested if conditionals
+#   else:
+#     print("failed")
+# else:
+#   print("You are an adult")
 
-input("Enter your name: ")
-input("Enter your relatives name: ")
-age = int(input("Enter your age: "))
+# input("Enter your name: ")
+# input("Enter your relatives name: ")
+# age = int(input("Enter your age: "))
 
 
-if age < 20:
-  print(" I am young")
-elif age < 30:
-  print("I am a vincernarian")
-elif age < 40:
-  print("I am a tricenarian")
-elif age < 50:
-  print(" I am quadragenarian")
-else:
-  print("I am old")
+# if age < 20:
+#   print(" I am young")
+# elif age < 30:
+#   print("I am a vincernarian")
+# elif age < 40:
+#   print("I am a tricenarian")
+# elif age < 50:
+#   print(" I am quadragenarian")
+# else:
+#   print("I am old")
   
 
 # Decision Making Practice #1
@@ -167,6 +167,17 @@ else:
 # "num2 is greater than num1"
 # "num1 and num2 are equal"
 
+num1 = int(input("Enter a number: "))
+num2 = int(input("Enter another number: "))
+print("Your first number: " + str(num1))
+print("Your second number: " + str(num2))
+
+if num1 > num2:
+  print("Your first number is greater than the second")
+elif num1 < num2:
+  print("Your second number is greater than the first")
+else: 
+  print("Your first number and second number are the same")
 
 # Decision Making Practice #2
 # The laws of a certain country establish that an adult can drive if they are of legal age (18 years or older), and have a driver's license.
@@ -188,6 +199,17 @@ has_license = False
 "You can't drive yet. You must be 18 years old and have a license"
 
 "You can't drive. You need to have a license"
+
+# if age >= 18 and has_license == True:
+#   print("You can drive")
+# elif age <= 16 and has_license == False:
+#   print("You can't drive yet You must be 18 years old and have a license")
+# else age >= 18 and had_license == False:
+#   print("You can't drive, you don't have a license")
+
+
+
+
 
 # Decision Making Practice #3
 # To access a certain job, the candidate must be able to program in Python and speak French.
