@@ -167,17 +167,17 @@ seconds = [1.23, 1.45, 1.02, 1.11]
 # "num2 is greater than num1"
 # "num1 and num2 are equal"
 
-num1 = int(input("Enter a number: "))
-num2 = int(input("Enter another number: "))
-print("Your first number: " + str(num1))
-print("Your second number: " + str(num2))
+# num1 = int(input("Enter a number: "))
+# num2 = int(input("Enter another number: "))
+# print("Your first number: " + str(num1))
+# print("Your second number: " + str(num2))
 
-if num1 > num2:
-  print("Your first number is greater than the second")
-elif num1 < num2:
-  print("Your second number is greater than the first")
-else: 
-  print("Your first number and second number are the same")
+# if num1 > num2:
+#   print("Your first number is greater than the second")
+# elif num1 < num2:
+#   print("Your second number is greater than the first")
+# else: 
+#   print("Your first number and second number are the same")
 
 # Decision Making Practice #2
 # The laws of a certain country establish that an adult can drive if they are of legal age (18 years or older), and have a driver's license.
@@ -262,6 +262,18 @@ knows_python = False
 # queue videos
 #what is iteration?
 #what are for loops?
+
+names = ['John', 'Ann','Chad','Lee']
+
+print("Hello " + names[0])
+print("Hello " + names[1])
+print("Hello " + names[2])
+print("Hello " + names[3])
+
+my_list = ['a','b','c','d']
+for letter in my_list:
+  letter_number = my_list.index(letter) + 1
+  print(f"letter {letter_number}: {letter}")
 
 
 # For Loops Practice #1
